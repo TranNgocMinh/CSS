@@ -3,10 +3,74 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Nhập môn CSS</title>
+    <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    
-  </body>
+    <!border: 1px solid black  1. Định nghĩa id para1 trong style.css với thuộc tính color:red, text-align: center, font-family: "Times New Roman"border: 1px solid black >
+    <p id="para1">Hello World!</p>
+    <p>This paragraph is not affected by the style.</p>
+    <!border: 1px solid black  2. Định nghĩa class center trong style.css với thuộc tính color:red và text-align: centerborder: 1px solid black >
+    <h1 class="center">Red and center-aligned heading</h1>
+    <p class="center">Red and center-aligned paragraph.</p>
+    <!border: 1px solid black  3. Định nghĩa thẻ a trong style.css với a:link có thuộc tính color:red, a:visited có thuộc tính color:green, a:hover có thuộc tính color:hotpink và a:active có thuộc tính color:blue border: 1px solid black >
+    <p><b><a href="default.asp" target="_blank">This is a link </a> </b> </p>
+    <p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+    <p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+    <!border: 1px solid black  4. Định nghĩa các lớp a,b,c,d trong style.css với lớp a có thuộc tính list-style-type: circle, lớp b có thuộc tính list-style-type: square, lớp c có thuộc tính list-style-type: upper-roman và lớp d có thuộc tính list-style-type: lower-alpha border: 1px solid black >
+    <ul class="a">
+      <li>item unordered list 1</li>
+      <li>item unordered list 2</li>
+    </ul>  
+    <ul class="b">
+      <li>item unordered list 3</li>
+      <li>item unordered list 4</li>
+    </ul>  
+    <ol class="c">
+      <li>item ordered list 1</li>
+      <li>item ordered list 2</li>
+    </ol>  
+    <ol class="d">
+      <li>item ordered list 3</li>
+      <li>item ordered list 4</li>
+    </ol>  
+  <!-- 5. Định nghĩa trong style.css các thẻ table, td, th với các thuộc tính border: 1px solid black; thẻ table với các thuộc tính border-collapse: collapse, width: 100% và thẻ th với thuộc tính height: 50px -->
+<table>
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+<th>Savings</th>
+</tr>
+<tr>
+<td>Peter</td>
+<td>Griffin</td>
+<td>$100</td>
+</tr>
+<tr>
+<td>Lois</td>
+<td>Griffin</td>
+<td>$150</td>
+</tr>
+<tr>
+<td>Joe</td>
+<td>Swanson</td>
+<td>$300</td>
+</tr>
+<tr>
+<td>Cleveland</td>
+<td>Brown</td>
+<td>$250</td>
+</tr>
+</table>
+<!-- 6. Định nghĩa trong style.css id box1 có các thuộc tính width: 320px, padding: 10px,border: 5px solid gray, margin: 0; -->
+<div id = "box1">
+  I am box 1
+</div>
+<!-- 7. Định nghĩa trong style.css lớp relative có các thuộc tính position: relative;width: 400px ;height: 200px; border: 3px solid #73AD21;lớp absolute có các thuộc tính top: 80px; right: 0; width: 200px; height: 100px; border: 3px solid #73AD21; -->
+<h2>position: absolute and relative</h2>
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+<div class="relative">This div element has position: relative;
+<div class="absolute">This div element has position: absolute;</div>
+</div>
+</body>
 </html>
