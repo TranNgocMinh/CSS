@@ -4,7 +4,8 @@
 2. CSS cơ bản(<a href="https://ngocminhtran.com/2017/07/07/css-co-ban/">Nhấn vào đây để tham khảo</a>)<br>
 ## Hoàn thành các bài tập về CSS
 1. Xem minh họa thực hiện heading.html trước khi sang bước kế tiếp<br>
-<a href="https://youtu.be/JpXf_mh4oUU" target="_blank">Minh họa cách thực hiện bài đánh giá từ Github Classroom và môi trường Repl.it</a>
+<a href="https://youtu.be/JpXf_mh4oUU" target="_blank">Minh họa cách thực hiện bài đánh giá từ Github Classroom và môi trường Repl.it</a><br>
+<b>Chú ý:</b> <i>Người học có thể xem lại video nếu chưa hiểu yêu cầu ở các bước tiếp theo</i><br>
 2. Nhấn vào nút <b>Work in Repl.it</b> ở trên để đến môi trường soạn thảo<br>
 3. Mở tập tin <b>index.html</b> và hoàn thành các yêu cầu nêu trong tập tin.<br>
 4. Sau khi hoàn thành mỗi yêu cầu, chạy thử bằng cách nhấn nút <b>Run</b> từ môi trường <b>Repl.it</b> để xem kết quả từ khung bên phải.<br>
